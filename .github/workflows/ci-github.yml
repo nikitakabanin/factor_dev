@@ -49,7 +49,7 @@ jobs:
           go-version: '1.21'
       - name: Run tests
         run: |
-          cd cicd
+          ls -a
   package:
     needs: [build, test]
     runs-on: ubuntu-22.04
