@@ -19,7 +19,7 @@ jobs:
       - name: Install build dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y go make
+          sudo apt-get install -y golang-go make
       - name: Build program
         run: |
           make build
