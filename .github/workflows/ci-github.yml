@@ -49,7 +49,10 @@ jobs:
           go-version: '1.21'
       - name: Run tests
         run: |
-          ls -a
+          cd cicd
+          go run test1.go
+          go run test2.go
+          go run test3.go
   package:
     needs: [build, test]
     runs-on: ubuntu-22.04
