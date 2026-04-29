@@ -10,7 +10,7 @@ import (
 
 func runTest(testName, inputFile, outputFile string) bool {
 	fmt.Printf("Запуск теста:", testName)
-	cmd := exec.Command("../usr/bin/factorial")
+	cmd := exec.Command("../usr/local/bin/factor_app")
 
 	inFile, err := os.Open(inputFile)
 	if err != nil {
