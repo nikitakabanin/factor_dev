@@ -3,6 +3,6 @@ Version: 1.0
 Section: utils
 Priority: optional
 Architecture: amd64
-Depends: golang-go
+Depends: go
 Maintainer: nkaba
 Description: Go.
