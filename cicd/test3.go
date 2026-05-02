@@ -73,7 +73,7 @@ func main() {
 		}
 	}
 
-	fmt.Println("тест 3")
+	fmt.Println("\nтест 3")
 	if passed {
 		fmt.Println("тест пройден")
 	} else {
