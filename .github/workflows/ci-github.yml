@@ -112,4 +112,4 @@ jobs:
       - name: Push Docker image
         run: |
           docker tag factor:latest ${{ secrets.DOCKERHUB_USERNAME }}/factor:latest
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/trrspo:factor
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/factor:latest
